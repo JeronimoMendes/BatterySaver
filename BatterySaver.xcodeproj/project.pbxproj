@@ -14,6 +14,7 @@
 		79244ECD28B3F3C2003FB9CF /* BatterySaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79244ECC28B3F3C2003FB9CF /* BatterySaverTests.swift */; };
 		79244ED728B3F3C2003FB9CF /* BatterySaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79244ED628B3F3C2003FB9CF /* BatterySaverUITests.swift */; };
 		79244ED928B3F3C2003FB9CF /* BatterySaverUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79244ED828B3F3C2003FB9CF /* BatterySaverUITestsLaunchTests.swift */; };
+		7941F0F028BADDC300999B3A /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7941F0EF28BADDC300999B3A /* ApplicationMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		79244ED228B3F3C2003FB9CF /* BatterySaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatterySaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79244ED628B3F3C2003FB9CF /* BatterySaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatterySaverUITests.swift; sourceTree = "<group>"; };
 		79244ED828B3F3C2003FB9CF /* BatterySaverUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatterySaverUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7941F0EF28BADDC300999B3A /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
+		79EFF4CF28BAE91000C06CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +98,13 @@
 		79244EB928B3F3BF003FB9CF /* BatterySaver */ = {
 			isa = PBXGroup;
 			children = (
+				79EFF4CF28BAE91000C06CD1 /* Info.plist */,
 				79244EBA28B3F3BF003FB9CF /* BatterySaverApp.swift */,
 				79244EBC28B3F3BF003FB9CF /* ContentView.swift */,
 				79244EBE28B3F3C2003FB9CF /* Assets.xcassets */,
 				79244EC328B3F3C2003FB9CF /* BatterySaver.entitlements */,
 				79244EC028B3F3C2003FB9CF /* Preview Content */,
+				7941F0EF28BADDC300999B3A /* ApplicationMenu.swift */,
 			);
 			path = BatterySaver;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79244EBD28B3F3BF003FB9CF /* ContentView.swift in Sources */,
+				7941F0F028BADDC300999B3A /* ApplicationMenu.swift in Sources */,
 				79244EBB28B3F3BF003FB9CF /* BatterySaverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,12 +422,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BatterySaver/BatterySaver.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BatterySaver/Preview Content\"";
+				DEVELOPMENT_TEAM = 59Y8L9TXZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BatterySaver/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,12 +450,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BatterySaver/BatterySaver.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BatterySaver/Preview Content\"";
+				DEVELOPMENT_TEAM = 59Y8L9TXZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BatterySaver/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
